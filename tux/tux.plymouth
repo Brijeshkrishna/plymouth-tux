@@ -1,0 +1,51 @@
+[Plymouth Theme]
+Name=lovelinux
+Description=A theme designed by brijesh that features a linux tux blink.
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes/tux/
+HorizontalAlignment=.5
+VerticalAlignment=.7
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+TitleHorizontalAlignment=.51
+TitleVerticalAlignment=.9
+DialogClearsFirmwareBackground=true
+
+
+[boot-up]
+UseEndAnimation=false
+Title=Booting...
+
+[shutdown]
+UseEndAnimation=false
+Title=Powering Of...
+
+[reboot]
+UseEndAnimation=false
+Title=Rebooting...
+
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
