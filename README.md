@@ -7,4 +7,5 @@ A plymouth theme `tux`
 
 ## How to use it 
 - Install [plymouth](https://command-not-found.com/plymouth)
+- clone this repo `git clone https://github.com/Brijeshkrishna/plymouth-tux.git`
 - Run the `install.sh`
